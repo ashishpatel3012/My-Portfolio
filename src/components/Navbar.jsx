@@ -1,5 +1,5 @@
 // import img from "./a-logo.png"
-import { IoIosSearch } from "react-icons/io";
+import { GrFormSearch } from "react-icons/gr";
 import { FaReact } from "react-icons/fa";
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
           {/* <img className="w-20 text-white " src="public/images/a-logo.png " alt="" /> */}
         </div>
 
-        <div className="  w-full  text-right mr-20">
+        <div className="  w-full  text-right mr-14">
           <ul className="">
             <li className=" ">
               <a
@@ -32,11 +32,11 @@ const Navbar = () => {
 
         <div className=" flex items-center pr-5">
           <input
-            className="h-10 w-72  text-left pl-5 bg-gray-600 text-base placeholder-yellow-600 shadow-inner"
+            className="h-10 w-72 rounded-l-lg  text-left pl-5 bg-gray-600 text-base placeholder-slate-300 shadow-inner"
             type="text"
             placeholder="Search"
           />
-          <IoIosSearch className="h-10 text-sm w-12  bg-gray-700 text-yellow-600 " />
+          <GrFormSearch className="searchlogo h-10 rounded-r-lg   w-12   bg-gray-700 text-yellow-600 " />
         </div>
       </div>
     </>
