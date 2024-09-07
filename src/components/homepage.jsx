@@ -11,7 +11,7 @@ export const Homepage = () => {
         <button className=" rounded py-3 bg-yellow-800">Contect Me</button>
       </div>
       <div className="bg-red-400">
-        <img src="public/images/dp.jpg" alt="" />
+        <img src="images/dp.jpg" alt="" />
       </div>
     </div>
     </>
