@@ -43,7 +43,7 @@ export const Homepage = () => {
       </div>
 
       <div className="  px-20 py-28">
-        <h1 className="text-7xl mb-5">About</h1>
+        <h1 className="text-7xl mb-5 underline decoration-yellow-700">About</h1>
         <div className="">
           
           <p className="flex ">

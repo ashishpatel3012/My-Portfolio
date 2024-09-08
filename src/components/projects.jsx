@@ -1,10 +1,42 @@
-
-import data from "./ProjectcCardData.json";
+// import data from "./ProjectcCardData.json";
+import { useState } from "react";
+import data from "./data-projects.json";
 
 export const Projects = () => {
+  const [noOfElement, setNoOfElement] = useState(6);
+
+  const loadMore = () => {
+    setNoOfElement(noOfElement + noOfElement);
+    
+  };
+  
+  const slice = data.slice(0, noOfElement);
   return (
     <>
-      <div className="mt-40  mx-10 ">
+      <h1 className="text-7xl  text-center underline decoration-yellow-700 ">Projects</h1>
+
+      <div className="my-10 p-14 min-h-96   flex flex-wrap items-center justify-center gap-8">
+        {slice.map((data, id) => {
+          return (
+            <div key={id}>
+              <img className="rounded w-96 h-56 " src={data["image-url"]} alt="" />
+              <h1 className="text-center">{data.title}</h1>
+            </div>
+          );
+        })}
+
+        
+      </div>
+      <div className="text-center">
+          <button
+            className="bg-blue-600 px-6 py-2  rounded-full"
+            onClick={() => loadMore()}
+          >
+            See more
+          </button>
+        </div>
+
+      {/* <div className="mt-40  mx-10 ">
         <h1 className="text-7xl text-center">Projects</h1>
         <div className=" mt-28 flex items-center justify-center flex-wrap gap-10">
           {data.map((data, id) => {
@@ -28,7 +60,7 @@ export const Projects = () => {
             );
           })}
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

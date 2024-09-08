@@ -30,14 +30,14 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className=" flex items-center pr-5">
+        {/* <div className=" flex items-center pr-5">
           <input
             className="h-10 w-72 rounded-l-lg  text-left pl-5 bg-gray-600 text-base placeholder-slate-300 shadow-inner"
             type="text"
             placeholder="Search"
           />
           <GrFormSearch className="searchlogo h-10 rounded-r-lg   w-12   bg-gray-700 text-yellow-600 " />
-        </div>
+        </div> */}
       </div>
     </>
   );

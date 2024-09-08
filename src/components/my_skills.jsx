@@ -39,15 +39,17 @@ export const My_skills = () => {
             <h2 className="mt-4">FIGMA</h2>
         </div>
     </div> */}
-    <div className=" container  flex items-center justify-center flex-wrap w-3/5	mx-auto gap-16">
-    <Icons img = './images/html.png' title= "HTML000"/>
-    <Icons img = './images/css.png' title= "CSS000"/>
+    <div className="  bg-yellow-900 p-20 my-20">
+    <div className=" container  flex items-center justify-center flex-wrap w-4/5	mx-auto gap-10">
+    <Icons img = './images/html.png' title= "HTML"/>
+    <Icons img = './images/css.png' title= "CSS"/>
     <Icons img = './images/js.png' title= "JAVASCRIPT"/>
     <Icons img = './images/bootstrap.png' title= "BOOTSTRAP"/>
     <Icons img = './images/tailwindcss.png' title= "TAILWIND CSS"/>
     <Icons img = './images/react-js.png' title= "REACT JS"/>
     <Icons img = './images/git-icon.png' title= "GIT"/>
     <Icons img = './images/figma.png' title= "FIGMA"/>
+    </div>
     </div>
     </>
     
