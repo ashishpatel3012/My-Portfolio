@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image-url": "./images/todo-ss.png",
+    "title": "Todo & Digitle Clock",
+    "description": "If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill.",
+    "btn-link": "link"
+  },
+  {
+    "id": 2,
+    "image-url": "./images/foodrecipe-ss.png",
+    "title": "Food Dishes",
+    "description": "If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill.",
+    "btn-link": "link"
+  },
+  {
+    "id": 3,
+    "image-url": "./images/loginpage-ss.png",
+    "title": "Login Page",
+    "description": "If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill.",
+    "btn-link": "link"
+  },
+  {
+    "id": 3,
+    "image-url": "./images/loginpage-ss.png",
+    "title": "Login Page",
+    "description": "If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill.",
+    "btn-link": "link"
+  },
+  {
+    "id": 3,
+    "image-url": "./images/loginpage-ss.png",
+    "title": "Login Page",
+    "description": "If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill.",
+    "btn-link": "link"
+  }
+
+]
