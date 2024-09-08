@@ -3,7 +3,7 @@
 export const My_skills = () => {
   return (
     <>
-    <div className=" container flex items-center justify-center flex-wrap w-3/5	mx-auto gap-16">
+    <div className=" container  flex items-center justify-center flex-wrap w-3/5	mx-auto gap-16">
 
         <div className="w-52 h-52 p-14  rounded-2xl bg-gray-800 flex flex-col items-center">
             <img  src="./images/html.png" className="" alt="" />

@@ -14,7 +14,7 @@ export const Homepage = () => {
             i'm <span className="text-yellow-700 text-6xl">Ashish patel</span>
           </h1>
           <p className="">React Developer </p>
-          <button className=" rounded py-3 mt-7 w-60 border text-yellow-800 border-yellow-800 hover:bg-yellow-800 hover:text-white">
+          <button className=" rounded py-3 mt-7 w-60 border text-yellow-800 border-yellow-800 hover:bg-yellow-800 hover:text-white shadow-lg shadow-yellow-800/30">
             Contect Me
           </button>
         </div>
