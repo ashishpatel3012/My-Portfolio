@@ -7,34 +7,39 @@ export const Projects = () => {
 
   const loadMore = () => {
     setNoOfElement(noOfElement + noOfElement);
-    
   };
-  
+
   const slice = data.slice(0, noOfElement);
   return (
     <>
-      <h1 className="text-7xl  text-center underline decoration-yellow-700 ">Projects</h1>
+      <h1 className="text-4xl mb-8  text-center underline decoration-yellow-700 ">
+        Projects
+      </h1>
 
-      <div className="my-10 p-14 min-h-96   flex flex-wrap items-center justify-center gap-8">
+      <div className=" p-8  bg-gray-950  flex flex-wrap items-center justify-center gap-3">
         {slice.map((data, id) => {
           return (
-            <div key={id}>
-              <img className="rounded w-96 h-56 " src={data["image-url"]} alt="" />
-              <h1 className="text-center">{data.title}</h1>
+            <div key={id} className="bg-gray-700 rounded">
+              <img
+                className="rounded-t w-[310px]  "
+                src={data["image-url"]}
+                alt=""
+              />
+              <h1 className="text-center p-2">{data.title}</h1>
             </div>
           );
         })}
 
-        
+
       </div>
       <div className="text-center">
-          <button
-            className="bg-blue-600 px-6 py-2  rounded-full"
-            onClick={() => loadMore()}
-          >
-            See more
-          </button>
-        </div>
+        <button
+          className="bg-blue-600 my-6 px-3 py-1 text-sm font-light  rounded-full"
+          onClick={() => loadMore()}
+        >
+          See more
+        </button>
+      </div>
 
       {/* <div className="mt-40  mx-10 ">
         <h1 className="text-7xl text-center">Projects</h1>

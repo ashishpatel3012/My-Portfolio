@@ -12,16 +12,16 @@ import { FaLocationDot } from "react-icons/fa6";
 export const Footer = () => {
   return (
     <>
-    <h1 className="text-7xl mt-14 text-center underline decoration-yellow-700">Contect Me</h1>
-     <div className="mt-28 flex flex-col items-center justify-center bg-yellow-800">
+    <h1 className="text-4xl  text-center underline decoration-yellow-700">Contact Me</h1>
+     <div className="mt-6 flex flex-col items-center justify-center bg-gray-950">
         
-        <div className="flex items-center justify-center gap-5 mt-10  flex-wrap ">
-            <p className="bg-gray-900 hover:text-yellow-800 py-4 px-4 flex items-center w-80 gap-2 rounded-lg"><IoMdMail className="text-4xl"/>ashishpatel7042@gmail.com</p>
-            <p className="bg-gray-900 hover:text-yellow-800 py-4 px-4 flex items-center w-80 gap-2 rounded-lg"><MdLocalPhone className="text-4xl"/>9988776655</p>
-            <p className="bg-gray-900 hover:text-yellow-800 py-4 px-4 flex items-center w-80 gap-2 rounded-lg"><FaLocationDot className="text-4xl"/>Sachin, Surat</p>
+        <div className="flex items-center justify-center gap-3 mt-10  flex-wrap ">
+            <p className="bg-gray-900 hover:text-yellow-800 py-2 text-sm px-14 flex items-center w-50 gap-2 rounded-lg  "><IoMdMail className="text-3xl "/>ashishpatel7042@gmail.com</p>
+            <p className="bg-gray-900 hover:text-yellow-800 py-2 text-sm px-6 flex items-center w-50 gap-2 rounded-lg"><MdLocalPhone className="text-3xl"/>9988776655</p>
+            <p className="bg-gray-900 hover:text-yellow-800 py-2 text-sm px-5 flex items-center w-50 gap-2 rounded-lg"><FaLocationDot className="text-3xl"/>Sachin, Surat</p>
         </div>
 
-        <div className="my-10 flex items-center gap-8 ">
+        <div className="my-7 flex items-center gap-8 ">
         <a className="" href="">
             <RiInstagramFill className="text-4xl hover:text-pink-400  " />
           </a>

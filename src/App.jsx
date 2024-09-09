@@ -11,7 +11,8 @@ function App() {
 
   return (
    <>
-   <Navbar/>
+   
+   <Navbar/>  
    <Homepage/>
    <My_skills/>
    <Projects/>

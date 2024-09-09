@@ -1,17 +1,22 @@
 // import img from "./a-logo.png"
 import { GrFormSearch } from "react-icons/gr";
 import { FaReact } from "react-icons/fa";
+import { FaBars } from "react-icons/fa6";
+
+
 
 const Navbar = () => {
   return (
     <>
-      <div className="flex items-center justify-between px-5 mt-5">
+      <div className="flex items-center justify-between  px-5 mt-5">
         <div>
-          <FaReact className="text-5xl ml-5 text-yellow-800" />
-          {/* <img className="w-20 text-white " src="public/images/a-logo.png " alt="" /> */}
-        </div>
+          {/* <FaReact className="text-5xl  text-yellow-800" /> */}
+          {/* <h1 className="text-2xl  text-yellow-800">AP</h1> */}
 
-        <div className="  w-full  text-right mr-14">
+          <img className="w-14 text-white " src="/images/A-logo2.png " alt="" />
+        </div>
+          <FaBars className="text-4xl hover:text-yellow-600 "/>
+        {/* <div className="  w-full  text-right mr-14">
           <ul className="">
             <li className=" ">
               <a
@@ -21,14 +26,14 @@ const Navbar = () => {
                 About
               </a>
               <a className="m-4  hover:text-yellow-600 hover:border-b-2 border-yellow-600" href="">
-                Portfolio
+                Projects
               </a>
               <a className="m-4  hover:text-yellow-600 hover:border-b-2 border-yellow-600" href="">
                 Contact
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* <div className=" flex items-center pr-5">
           <input
