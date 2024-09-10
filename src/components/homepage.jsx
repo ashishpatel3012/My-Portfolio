@@ -5,66 +5,81 @@ import { IoLogoGithub } from "react-icons/io";
 import { IoMdMail } from "react-icons/io";
 import { MdLocalPhone } from "react-icons/md";
 
+
 import { FaMinus } from "react-icons/fa";
 
 export const Homepage = () => {
+
+ const scroll = ScrollReveal({
+
+      reset: true,
+      duration:2600,
+      distance:'60px'
+ })
+ scroll.reveal('.img-transform', {delay:400, origin:'top'})
+ scroll.reveal('.text-transform', {delay:300, origin:'left'})
+
+
   return (
     <>
-      <div className="  flex flex-col items-center justify-between px-10 py-5 ">
-        <div className=" flex flex-col order-2">
-          <h1 className="text-2xl  ">
+      <div className="  flex flex-col items-center   justify-between px-10 py-5 md:flex md:flex-row md:items-center md:p-8 lg:my-10 ">
+        <div className="text-transform flex flex-col    order-2 md:order-1 md:ml-10  md:flex md:items-center md:mt-20 lg:text-3xl lg:ml-24">
+          <h1 className="text-1xl  ">
             I'm{" "}
-            <span className="text-yellow-700 text-4xl underline underline-offset-4 decoration-white">
+            <span className="text-yellow-700 text-4xl underline underline-offset-4 decoration-white lg:text-6xl">
               Ashish Patel
             </span>
           </h1>
-          <p className="underline decoration-yellow-700 text-center text-xl mt-2">
+          <p className="underline decoration-yellow-700 text-center text-xl mt-2 lg:text-2xl">
             Front-End Developer{" "}
           </p>
-          <button className=" rounded py-3 mt-7 w-full border  text-yellow-800 border-yellow-800 hover:bg-yellow-800 hover:text-white shadow-lg shadow-yellow-800/30">
+          <button className=" rounded py-3 mt-6 w-full border  text-yellow-800 border-yellow-800 hover:bg-yellow-800 hover:text-white shadow-lg shadow-yellow-800/30 md:py-2 md:w-44 lg:py-4 lg:px-32 lg:w-full" >
             Contact Me
           </button>
         </div>
 
-        <div className="   flex items-center justify-center my-10 order-1 ">
+        <div className="   flex items-center justify-center my-10 order-1 md:order-2 img-transform  ">
           <img
-            className="w-80 border-double border-4 border-yellow-700"
+            className="min-w-80 border-double border-8 border-yellow-700  md:w-40 md:ml-10 md:rounded-full lg:w-96 lg:ml-24"
             src="images/demo-img.jpg"
             alt=""
           />
         </div>
 
-        <div className="flex items-center justify-center  flex-row gap-2 order-3 ">
-          <h1 className="h-20 ml-4 text-8xl font-thin text-start text-yellow-700">
+        <div className="flex items-center justify-center  flex-row gap-2 order-3 md:flex md:flex-col md:items-center md:justify-center  ">
+          <h1 className="h-20 ml-4 text-8xl font-thin text- text-yellow-700 ">
             -
           </h1>
-          <div className="flex items-center justify-center  flex-row gap-2 ">
+
+          <div className="flex items-center justify-center  flex-row gap-2 md:flex md:flex-col md:items-center md:ml-4 md:gap-5 lg:mr-4 ">
             <a href="">
-              <IoMdMail className="text-2xl hover:text-pink-400  " />
+              <IoMdMail className="text-2xl hover:text-yellow-400 lg:text-4xl " />
             </a>
             <a href="">
-              <MdLocalPhone className="text-2xl hover:text-sky-400	" />
+              <MdLocalPhone className="text-2xl hover:text-sky-400 lg:text-4xl	" />
             </a>
             <a href="">
-              <IoLogoGithub className="text-2xl hover:text-black hover:bg-white border rounded-full " />
+              <IoLogoGithub className="text-2xl hover:text-black hover:bg-white border rounded-full lg:text-4xl " />
             </a>
             <a href="">
-              <TiSocialLinkedin className="text-2xl hover:text-sky-800	" />
+              <TiSocialLinkedin className="text-2xl hover:text-sky-800 lg:text-4xl	" />
             </a>
           </div>
-          <h1 className="h-20 ml-4  text-8xl font-thin text-end text-yellow-700">
+          <h1 className="h-20 ml-4  text-8xl font-thin text-end text-yellow-700 ">
             -
           </h1>
         </div>
       </div>
 
-      <div className="  p-10">
-        <h1 className="text-4xl mb-2 text-stat underline decoration-yellow-700">
+      {/* ------------------------ */}
+
+      <div className="  p-10 md:p-8 lg:my-32">
+        <h1 className="text-4xl mb-2 text-stat underline decoration-yellow-700 lg:text-7xl">
           About
         </h1>
         <div className="">
-          <p className="flex text-gray-500 text-left ">
-            <FaMinus className="text-yellow-700 text-9xl mr-2 h-6" />
+          <p className="flex text-gray-500 text-left  ">
+            <FaMinus className="text-yellow-700 text-9xl mr-2 h-6 " />
             Lorem, ipsum dolor sit amet consectetur adipis icing elit. Rerum
             sapiente volupt atem dolorem asper natur dolores voluptas incid unt
             omnis, necessi tatibus expedita deserunt perspiciatis fugiat sequi

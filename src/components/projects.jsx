@@ -12,16 +12,16 @@ export const Projects = () => {
   const slice = data.slice(0, noOfElement);
   return (
     <>
-      <h1 className="text-4xl mb-8  text-center underline decoration-yellow-700 ">
+      <h1 className="text-4xl mb-8  text-center underline decoration-yellow-700 lg:text-7xl lg:my-24">
         Projects
       </h1>
 
-      <div className=" p-8  bg-gray-950  flex flex-wrap items-center justify-center gap-3">
+      <div className=" p-8  bg-gray-950  flex flex-wrap items-center justify-center gap-3 md:gap-6 lg:">
         {slice.map((data, id) => {
           return (
-            <div key={id} className="bg-gray-700 rounded">
+            <div key={id} className="bg-gray-500 hover:bg-gray-800 rounded  ">
               <img
-                className="rounded-t w-[310px]  "
+                className="rounded-t min-w-[310px] md:w-[340px] lg:w-[390px] lg:h-56   "
                 src={data["image-url"]}
                 alt=""
               />
@@ -34,7 +34,7 @@ export const Projects = () => {
       </div>
       <div className="text-center">
         <button
-          className="bg-blue-600 my-6 px-3 py-1 text-sm font-light  rounded-full"
+          className="bg-blue-600 my-6 px-3 py-1 text-sm font-light  rounded-full hover:bg-blue-900 lg:px-7 lg:py-3 lg:text-lg"
           onClick={() => loadMore()}
         >
           See more
