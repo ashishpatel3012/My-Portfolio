@@ -39,7 +39,7 @@ export const My_skills = () => {
         </div>
     </div> */}
       <h1 className="text-4xl mb-8  text-center underline decoration-yellow-700  lg:text-7xl ">
-        My-Skills
+        My Skills
       </h1>
       <div className="  bg-gray-950 p-10 my-10 md:p-8 lg:flex lg:justify-center lg:py-24">
         <div className=" container  flex items-center justify-center flex-wrap gap-2 md:flex md:mx-auto lg:gap-5  lg:w-3/4 ">
