@@ -12,7 +12,7 @@ export const Projects = () => {
   const slice = data.slice(0, noOfElement);
   return (
     <>
-      <h1 className="text-4xl mb-8  text-center underline decoration-yellow-700 lg:text-7xl lg:my-24">
+      <h1 className="text-4xl mb-8  text-center underline underline-offset-[12px] decoration-yellow-700 lg:text-7xl lg:my-24">
         Projects
       </h1>
 

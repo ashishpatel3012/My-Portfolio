@@ -8,27 +8,28 @@ import { FaBars } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <>
-      <div className="flex items-center justify-between bg-yellow-900   px-8  md:flex md:items-center md:justify-between  ">
+      <div className="flex items-center justify-between border-b-2 border-yellow-900 border-opacity-40 bg-gradient-to-r    px-8  md:flex md:items-center md:justify-between  ">
         <div>
           {/* <FaReact className="text-5xl  text-yellow-800" /> */}
           {/* <h1 className="text-2xl  text-yellow-800">AP</h1> */}
 
           <img className="w-14 text-white " src="/images/A-logo2.png " alt="" />
         </div >
-          <FaBars className="text-4xl hover:text-yellow-600 md:hidden "/>
-        <div className="  w-full  text-right  ">
+          <FaBars className="text-4xl text-black hover:text-yellow-600 md:hidden "/>
+        <div className="  w-full  text-right   ">
+          
           <ul className=" ">
             <li className=" ">
               <a
-                className="m-3 font-bold text-lg text-black hover:text-white border-b-2 border-black  hover:border-b-  hover:border-white"
+                className="m-3 font-bold text-lg    border-black  hover:border-b-2  hover:border-yellow-700"
                 href=""
               >
                 About
               </a>
-              <a className="m-3 text-black font-bold text-lg hover:text-white border-b-2 border-black  hover:border-b-2  hover:border-white" href="">
+              <a className="m-3  font-bold text-lg  border-black  hover:border-b-2  hover:border-yellow-700" href="">
                 Projects
               </a>
-              <a className="m-3 text-black font-bold text-lg hover:text-white border-b-2 border-black  hover:border-b-2  hover:border-white" href="">
+              <a className="m-3  font-bold text-lg  border-black  hover:border-b-2  hover:border-yellow-700" href="">
                 Contact
               </a>
             </li>

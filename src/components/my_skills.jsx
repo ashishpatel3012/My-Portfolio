@@ -38,10 +38,10 @@ export const My_skills = () => {
             <h2 className="mt-4">FIGMA</h2>
         </div>
     </div> */}
-      <h1 className="text-4xl mb-8  text-center underline decoration-yellow-700  lg:text-7xl ">
-        My-Skills
+      <h1 className="text-4xl mb-8  text-center underline underline-offset-[12px] decoration-yellow-700  lg:text-7xl  ">
+        My Skills
       </h1>
-      <div className="  bg-gray-950 p-10 my-10 md:p-8 lg:flex lg:justify-center lg:py-24">
+      <div className="  bg-gradient-to-r from-blue-700  to-yellow-800 p-10 my-10 md:p-8 lg:flex lg:justify-center lg:py-24">
         <div className=" container  flex items-center justify-center flex-wrap gap-2 md:flex md:mx-auto lg:gap-5  lg:w-3/4 ">
           <Icons img="./images/html.png"  title="HTML" />
           <Icons img="./images/css.png" title="CSS" />
