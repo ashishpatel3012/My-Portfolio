@@ -35,7 +35,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-
+    
         {/* <div className=" flex items-center pr-5">
           <input
             className="h-10 w-72 rounded-l-lg  text-left pl-5 bg-gray-600 text-base placeholder-slate-300 shadow-inner"
