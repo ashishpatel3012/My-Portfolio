@@ -38,7 +38,11 @@ export const My_skills = () => {
             <h2 className="mt-4">FIGMA</h2>
         </div>
     </div> */}
+<<<<<<< HEAD
       <h1 className="text-4xl mb-8  text-center underline underline-offset-[12px] decoration-yellow-700  lg:text-7xl  ">
+=======
+      <h1 className="text-4xl mb-8  text-center underline decoration-yellow-700  lg:text-7xl ">
+>>>>>>> 476a847f21720d5f69f6e86563fdd630d51b6db3
         My Skills
       </h1>
       <div className="  bg-gradient-to-r from-blue-700  to-yellow-800 p-10 my-10 md:p-8 lg:flex lg:justify-center lg:py-24">

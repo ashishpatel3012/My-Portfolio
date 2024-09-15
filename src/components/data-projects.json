@@ -57,6 +57,7 @@
     {
     "id": 12,
     "image-url": "./images/todo-ss.png",
+<<<<<<< HEAD
     "title": "Todo & Digital Clock"
     },
     {
@@ -98,6 +99,10 @@
     "id": 20,
     "image-url": "./images/todo-ss.png",
     "title": "Todo & Digital Clock"
+=======
+    "title": "Todo & Digitle Clock"
+>>>>>>> 476a847f21720d5f69f6e86563fdd630d51b6db3
     }
-   
+    
+  
 ]
