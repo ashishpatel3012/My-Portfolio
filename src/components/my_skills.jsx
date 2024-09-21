@@ -3,6 +3,7 @@ import { Icons } from "./icons";
 export const My_skills = () => {
   return (
     <>
+    <div className="container mx-auto">
       {/* <div className=" container  flex items-center justify-center flex-wrap w-3/5	mx-auto gap-16">
 
         <div className="w-52 h-52 p-14  rounded-2xl bg-gray-800 flex flex-col items-center">
@@ -39,7 +40,7 @@ export const My_skills = () => {
         </div>
     </div> */}
 
-      <h1 className="text-4xl mb-8  text-center underline underline-offset-[12px] decoration-yellow-700  lg:text-7xl  ">
+      <h1 className="text-4xl mb-8  text-center underline underline-offset-[12px] decoration-yellow-700  lg:text-7xl lg:my-24 ">
 
       {/* <h1 className="text-4xl mb-8  text-center underline decoration-yellow-700  lg:text-7xl "> */}
 
@@ -56,6 +57,7 @@ export const My_skills = () => {
           <Icons img="./images/git-icon.png" title="GIT" />
           <Icons img="./images/figma.png" title="FIGMA" />
         </div>
+      </div>
       </div>
     </>
   );

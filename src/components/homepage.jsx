@@ -18,11 +18,12 @@ export const Homepage = () => {
 
   return (
     <>
-      <div className="  flex flex-col items-center  justify-between  px-10 py-5 md:flex md:flex-row md:items-center md:p-8 lg:my-10 ">
+    <div className="container mx-auto  ">
+      <div className="  flex flex-col items-center  justify-between  px-10 py-5 md:flex md:flex-row md:items-center  md:p-8 lg:my-10 ">
         <div className="text-transform flex flex-col order-2 md:order-1 md:ml-10  md:flex md:items-center md:mt-20 lg:text-3xl lg:ml-24">
-          <h1 className="text-1xl font-thin   ">
+          <h1 className="text-1xl text-center  font-thin   ">
             I'm{" "}
-            <span className="animate- text-yellow-700 text-4xl font-bold  bg-gradient-to-tr from-yellow-600 to-neutral-600 inline-block text-transparent bg-clip-text     lg:text-6xl">
+            <span className="animate- text-yellow-700 text-4xl font-bold  bg-gradient-to-tr from-yellow-600 to-neutral-600 inline-block text-transparent bg-clip-text sm:text-4xl lg:text-5xl ">
               Ashish Patel
             </span>
           </h1>
@@ -36,9 +37,9 @@ export const Homepage = () => {
             <div className="max-w-7xl mx-auto mt-8 ">
               <div className="relative group cursor-pointer">
                 <div className="absolute  -inset-1 bg-gradient-to-r from-blue-700  to-yellow-800 rounded-lg blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-                <div className="relative px-32 py-6 bg-black ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
-                  <div className="space-y-2 ">
-                    <p className="text-gray-200 ">Contact Me</p>
+                <div className="relative  py-6 bg-black ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+                  <div className="space-y-2 text-center">
+                    <p className="text-gray-200 w-96  md:w-72 lg:w-96  ">Contact Me</p>
                   </div>
                 </div>
               </div>
@@ -48,7 +49,7 @@ export const Homepage = () => {
 
         <div className="   flex items-center justify-center my-10 order-1 md:order-2 img-transform  ">
           <img
-            className="min-w-80 border-double border-8 border-yellow-700  md:w-40 md:ml-10 md:rounded-full lg:w-96 lg:ml-24"
+            className="min-w-80 border-double border-8 border-yellow-700 md:min-w-64 md:w-40 md:ml-10 md:rounded-full lg:w-96 lg:ml-24"
             src="images/demo-img.jpg"
             alt=""
           />
@@ -82,7 +83,7 @@ export const Homepage = () => {
       {/* ------------------------ */}
 
       <div className="  p-10 md:p-8 lg:my-32">
-        <h1 className="text-4xl mb-8 text-center underline underline-offset-[12px] decoration-yellow-700 lg:text-7xl">
+        <h1 className="text-4xl mb-8 text-center underline underline-offset-[12px] decoration-yellow-700 lg:text-7xl lg:my-24 ">
           About
         </h1>
         <div className="">
@@ -97,6 +98,7 @@ export const Homepage = () => {
             dignissimos.
           </p>
         </div>
+      </div>
       </div>
     </>
   );

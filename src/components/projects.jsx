@@ -12,11 +12,12 @@ export const Projects = () => {
   const slice = data.slice(0, noOfElement);
   return (
     <>
-      <h1 className="text-4xl mb-8  text-center underline underline-offset-[12px] decoration-yellow-700 lg:text-7xl lg:my-24">
+    <div className="container mx-auto  xl:container">
+      <h1 className="text-4xl   text-center underline underline-offset-[12px] decoration-yellow-700 lg:text-7xl lg:my-24">
         Projects
       </h1>
 
-      <div className=" p-8  bg-gray-950  flex flex-wrap items-center justify-center gap-3 md:gap-6 lg:">
+      <div className=" py-24  bg-gray-900 flex flex-wrap items-center justify-center  gap-5 md:gap- lg:">
         {slice.map((data, id) => {
           return (
             <div key={id} className="bg-gray-500 hover:bg-gray-800 rounded  ">
@@ -29,8 +30,6 @@ export const Projects = () => {
             </div>
           );
         })}
-
-
       </div>
       <div className="text-center">
         <button
@@ -66,6 +65,7 @@ export const Projects = () => {
           })}
         </div>
       </div> */}
+      </div>
     </>
   );
 };
