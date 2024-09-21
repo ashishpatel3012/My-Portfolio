@@ -10,22 +10,11 @@ const Navbar = () => {
       {/* <div className="flex items-center justify-between border-b-2 border-yellow-900 border-opacity-40 bg-gradient-to-r    px-8  md:flex md:items-center md:justify-between  "> */}
 
       <div className="container mx-auto flex items-center justify-between bg-gradient-to-r from-blue-700  to-yellow-800  w-full  px-8 py-2 bg-red-500  ">
-        <div className="flex justify-between  w-full ">
-          {/* <FaReact className="text-5xl  text-yellow-800" />        */}
-          {/* <h1 className="text-2xl  text-yellow-800">AP</h1> */}
-
-          {/* <img className="w-14 text-white " src="/images/A-logo2.png " alt="" /> */}
+        <div className=" w-full ">
           <TbHexagonLetterAFilled className="text-4xl hover:text-black  " />
-          <FaBars className="text-4xl hover:text-yellow-600 visible  md:invisible " />
         </div>
-        {/* <FaBars className="text-4xl text-black hover:text-yellow-600 md:hidden " /> */}
-        {/* <div className="  w-full  text-right   "> */}        
-        {/* </div> */}
 
-        
-
-
-        <div className="  w-full  text-right invisible lg:visible  md:visible xl:visible">
+        <div className=" flex items-center justify-end  w-full text-right invisible lg:visible  md:visible xl:visible">
           <ul className=" ">
             <li className=" ">
               <a
@@ -47,8 +36,13 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
+            
           </ul>
+          <div className="sm:mr-7">
+          <FaBars className="text-4xl  hover:text-yellow-600 visible md:invisible " />
+          </div>
         </div>
+        
 
         {/* <div className="  w-full  text-right invisible lg:visible md:visible xl:visible">
           <ul className=" ">

@@ -82,7 +82,7 @@ export const Homepage = () => {
 
       {/* ------------------------ */}
 
-      <div className="  p-10 md:p-8 lg:my-32">
+      <div  className="  p-10 md:p-8 lg:my-32">
         <h1 className="text-4xl mb-8 text-center underline underline-offset-[12px] decoration-yellow-700 lg:text-7xl lg:my-24 ">
           About
         </h1>

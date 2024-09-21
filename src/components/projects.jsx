@@ -13,11 +13,11 @@ export const Projects = () => {
   return (
     <>
     <div className="container mx-auto  xl:container">
-      <h1 className="text-4xl   text-center underline underline-offset-[12px] decoration-yellow-700 lg:text-7xl lg:my-24">
+      <h1 className="text-4xl mb-10  text-center underline underline-offset-[12px] decoration-yellow-700 lg:text-7xl lg:my-24">
         Projects
       </h1>
 
-      <div className=" py-24  bg-gray-900 flex flex-wrap items-center justify-center  gap-5 md:gap- lg:">
+      <div className=" py-16 px-8  bg-gray-900 flex flex-wrap items-center justify-center  gap-8 sm:p-16  md:gap-8 lg:">
         {slice.map((data, id) => {
           return (
             <div key={id} className="bg-gray-500 hover:bg-gray-800 rounded  ">
