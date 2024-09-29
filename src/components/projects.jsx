@@ -12,19 +12,19 @@ export const Projects = () => {
   const slice = data.slice(0, noOfElement);
   return (
     <>
-    <div className="container mx-auto  xl:container">
+    <div className="container mx-auto  xl:container ">
       <h1 className="text-4xl mb-10  text-center underline underline-offset-[12px] decoration-yellow-700 lg:text-7xl lg:my-24">
         Projects
       </h1>
 
-      <div className=" py-16 px-8  bg-gray-900 flex flex-wrap items-center justify-center  gap-8 sm:p-16  md:gap-8 lg:">
+      <div className=" py-16 px-8  bg-gray-900 flex flex-wrap items-center justify-center  gap-8 sm:p-16  md:p-12  lg:gap-12  ">
         {slice.map((data, id) => {
           return (
             <div key={id} className="bg-gray-500 hover:bg-gray-800 rounded  ">
               <img
-                className="rounded-t min-w-[310px] md:w-[340px] lg:w-[390px] lg:h-56   "
-                src={data["image-url"]}
-                alt=""
+                className="rounded-t bg-indigo-900 w-full md:h-48 md:w-[320px] lg:w-[420px] lg:h-64  "
+                src={data[""] }
+                alt="project image"
               />
               <h1 className="text-center p-2">{data.title}</h1>
             </div>

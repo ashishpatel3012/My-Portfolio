@@ -10,13 +10,14 @@ function App() {
   
 
   return (
-   <>
-   
+   < >
+   <div className=''>
    <Navbar/>  
    <Homepage/>
    <My_skills/>
    <Projects/>
    <Footer />
+   </div>
    
    </>
   )

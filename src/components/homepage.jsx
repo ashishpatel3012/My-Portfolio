@@ -19,7 +19,7 @@ export const Homepage = () => {
   return (
     <>
     <div className="container mx-auto  ">
-      <div className="  flex flex-col items-center  justify-between  px-10 py-5 md:flex md:flex-row md:items-center  md:p-8 lg:my-10 ">
+      <div className="  flex flex-col items-center   justify-between  px-10 py-5 md:flex md:flex-row md:items-center  md:p-8 lg:my-10 ">
         <div className="text-transform flex flex-col order-2 md:order-1 md:ml-10  md:flex md:items-center md:mt-20 lg:text-3xl lg:ml-24">
           <h1 className="text-1xl text-center  font-thin   ">
             I'm{" "}
