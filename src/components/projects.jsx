@@ -17,16 +17,20 @@ export const Projects = () => {
         Projects
       </h1>
 
-      <div className=" py-16 px-8  bg-gray-900 flex flex-wrap items-center justify-center  gap-8 sm:p-16  md:p-12  lg:gap-12  ">
+      <div className=" py-16 px-8  border border-gray-500 rounded-md flex flex-wrap items-center justify-center  gap-8 sm:p-16  md:p-12  lg:gap-12  ">
         {slice.map((data, id) => {
           return (
-            <div key={id} className="bg-gray-500 hover:bg-gray-800 rounded  ">
+            <div key={id}  className="bg-gray-600 hover:bg-gray-800 rounded-md  text-center text-2xl border border-gray-500 ">
               <img
-                className="rounded-t bg-indigo-900 w-full md:h-48 md:w-[320px] lg:w-[420px] lg:h-64  "
-                src={data[""] }
+                className="rounded-t bg-indigo-900 w-full md:h-48 md:w-[320px] lg:w-[420px] lg:h-64 rounded-md "
+                src={data["image-url"] }
                 alt="project image"
+
               />
-              <h1 className="text-center p-2">{data.title}</h1>
+              {/* <a className="text-center cursor-pointer p-2">{data.title}</a> */}
+              <div className="h-14 flex items-center justify-center text-3xl font-bold">
+              <a className="text-center cursor-pointer py-2" href={data["project-link"]}>{data.title}</a>
+              </div>
             </div>
           );
         })}
