@@ -46,8 +46,8 @@ export const My_skills = () => {
 
         My Skills
       </h1>
-      <div className="  bg-gradient-to-r from-blue-700  to-yellow-800 p-10 my-10 md:p-8 lg:flex lg:justify-center lg:py-24">
-        <div className=" container  flex items-center justify-center flex-wrap gap-2 md:flex md:mx-auto lg:gap-5  lg:w-3/4 ">
+      <div className="  border rounded-md border-gray-500 p-10 my-10 md:p-8 lg:flex lg:justify-center lg:py-24">
+        <div className=" container   flex items-center justify-center flex-wrap gap-2 md:flex md:mx-auto lg:gap-5  lg:w-3/4 ">
           <Icons img="./images/html.png"  title="HTML" />
           <Icons img="./images/css.png" title="CSS" />
           <Icons img="./images/js.png" title="JAVASCRIPT" />

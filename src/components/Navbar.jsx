@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       {/* <div className="flex items-center justify-between border-b-2 border-yellow-900 border-opacity-40 bg-gradient-to-r    px-8  md:flex md:items-center md:justify-between  "> */}
 
-      <div className="container mx-auto flex items-center justify-between bg-gradient-to-r from-blue-700  to-yellow-800  w-full  px-8 py-2 bg-red-500  ">
+      <div className="container mx-auto flex items-center justify-between bg-gradient-to-br from-yellow-600 via-yellow-800 to-yellow-900  w-full  px-8 py-2  ">
         <div className=" w-full ">
           <TbHexagonLetterAFilled className="text-4xl hover:text-black  " />
         </div>
