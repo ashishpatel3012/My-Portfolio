@@ -2,19 +2,21 @@
     {
     "id": 1,
     "image-url": "./images/realestate-app-ss.png",
-    "title": "RealEstate-App",
+    "title": "RealEstate App",
     "project-link": "https://real-estate-app-ruddy-seven.vercel.app/"
     },
     {
     "id": 2,
     "image-url": "./images/foodrecipe-ss.png",
-    "title": "Food-Dishes-App",
+    "title": "Food Dishes App",
     "project-link":"https://food-dishes-app.vercel.app/"
     },
     {
+        
     "id": 3,
-    "image-url": "",
-    "title": "Project-Title"
+    "image-url": "/images/watiss.png",
+    "title": "Wati website Clone",
+    "project-link":"https://wati-website-clone.vercel.app/.well-known/vercel/toolbar?path=%2F%3FvercelToolbarCode%3DoLwvvb_C5pwQOPV"
     },
     {
     "id": 4,
